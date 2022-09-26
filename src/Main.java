@@ -1,10 +1,7 @@
 import java.util.ArrayList;
 import java.util.Random;
 import java.util.Scanner;
-/*
- * Aggregation digunakan karena masing-masing guitar bersifat
- * independent
- */
+
 public class Main {
 	ArrayList<Acoustic> guitarList = new ArrayList<>();
 	Guitar guitar = new Guitar(guitarList);
@@ -106,6 +103,8 @@ public class Main {
 
 	private void menu() {
 		// TODO Auto-generated method stub
+		System.out.println("MyGuitar");
+		System.out.println("==================================================");
 		System.out.println("1. Build Guitar");
 		System.out.println("2. Display List of Guitar");
 		System.out.println("3. Exit");
